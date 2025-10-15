@@ -1,0 +1,7 @@
+#include <stdio .h> 
+int main () {
+float grams , kg;
+printf(" Enter weight in grams: "); 
+scanf("%f", &grams);
+kg = grams /1000;
+printf("%.2 f grams is equal to %.2 f kg\n", grams , kg);
