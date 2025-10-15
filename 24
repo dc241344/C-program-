@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main (){
+
+temp;
+
+the value of a:");
+
+10
+
+12
+
+int a,b,
+
+printf("Enter
+
+scanf("%d",&a);
+
+printf("Enter the value of b:");
+
+scanf("% d",&b);
+
+printf("Before swaping: a= %d and b= %d\n",a,b);
+
+temp =a;
+
+a=b;
+
+b= temp;
+
+printf("After swaping: a= %d and b= %d\n", a, b);
+
+return 0;}
