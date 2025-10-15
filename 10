@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+
+rupeeTo Pound = 0.014285; // 1 rupee =0.014285 or 1/70
+
+float dollars, rupees, pounds;
+
+float dollarTo Rupee = 48.0: // 1 dollar = 48 rupees
+
+float
+
+printf("Enter amount in Dollars: "); scanf("%f", &dollars);
+
+rupees = dollars * dollarTo Rupee;
+
+pounds = rupees * rupee To Pound;
+
+printf("%.2f Dollars = %.2f Rupees = %.2f Pounds\n", dollars, rupees, pounds);
