@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main () {
+
+float bytes, kb,mb,gb;
+
+printf("Enter the bytes:");
+
+scanf("%f", &bytes);
+
+kb= bytes/1024;
+
+mb=kb/1024;
+
+gb=mb/1024;
+
+printf(" The value in kb = %.2 f\ n", kb);
+
+printf(" The vlaue in mb = %.2 f\ n", mb);
+
+printf("The value in gb = %.2f\n", gb);
