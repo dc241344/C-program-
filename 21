@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main (){
+
+float Net, Gross, Allowance, Deduction;
+
+printf("Enter the gross salary: ");
+
+scanf("%f", &Gross);
+
+Allowance = Gross * 0.1;
+
+Deduction = Gross* 0.03;
+
+Net= Gross + Allowance - Deduction;
+
+printf("Allowance is: %.2f * 0.1 = %.2f\n", Gross, Allowance);
+
+printf(" Deduction is : %.2f * 0.03 = %.2f\n", Gross, Deduction);
+
+printf("Net salary is: %.2f + %.2f - %.2f =
+
+%.2f\n", Gross, Allowance, Deduction, Net);
+
+return 0;
